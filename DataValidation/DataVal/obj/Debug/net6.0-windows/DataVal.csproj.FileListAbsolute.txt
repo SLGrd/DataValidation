@@ -1,0 +1,8 @@
+D:\Tutorials\DataValidation\DataValidation\DataVal\obj\Debug\net6.0-windows\DataVal.csproj.AssemblyReference.cache
+D:\Tutorials\DataValidation\DataValidation\DataVal\obj\Debug\net6.0-windows\DataVal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tutorials\DataValidation\DataValidation\DataVal\obj\Debug\net6.0-windows\DataVal.AssemblyInfoInputs.cache
+D:\Tutorials\DataValidation\DataValidation\DataVal\obj\Debug\net6.0-windows\DataVal.AssemblyInfo.cs
+D:\Tutorials\DataValidation\DataValidation\DataVal\obj\Debug\net6.0-windows\DataVal.csproj.CoreCompileInputs.cache
+D:\Tutorials\DataValidation\DataValidation\DataVal\obj\Debug\net6.0-windows\DataVal.MvcApplicationPartsAssemblyInfo.cache
+D:\Tutorials\DataValidation\DataValidation\DataVal\obj\Debug\net6.0-windows\DataVal.RazorAssemblyInfo.cache
+D:\Tutorials\DataValidation\DataValidation\DataVal\obj\Debug\net6.0-windows\DataVal.RazorAssemblyInfo.cs

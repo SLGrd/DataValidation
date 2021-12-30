@@ -1,0 +1,5 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="D:\Tutorials\DataValidation\DataValidation\DataVal\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/Common" Path="D:\Tutorials\DataValidation\Common\obj\Debug\net5.0\scopedcss\projectbundle\" />
+  <ContentRoot BasePath="_content/Common" Path="D:\Tutorials\DataValidation\Common\wwwroot\" />
+</StaticWebAssets>

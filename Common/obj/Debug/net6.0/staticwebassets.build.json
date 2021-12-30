@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "YtMlyfFelDJPg5EgD9hMdrJhxoH5NJNgrrNexDHY8Tw=",
+  "Source": "Common",
+  "BasePath": "_content/Common",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Common\\wwwroot",
+      "Source": "Common",
+      "ContentRoot": "D:\\Tutorials\\DataValidation\\Common\\wwwroot\\",
+      "BasePath": "_content/Common",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Tutorials\\DataValidation\\Common\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Common.styles.css",
+      "SourceId": "Common",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Tutorials\\DataValidation\\Common\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Common",
+      "RelativePath": "Common.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Tutorials\\DataValidation\\Common\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Common.styles.css"
+    },
+    {
+      "Identity": "D:\\Tutorials\\DataValidation\\Common\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Common.bundle.scp.css",
+      "SourceId": "Common",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Tutorials\\DataValidation\\Common\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Common",
+      "RelativePath": "Common.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Tutorials\\DataValidation\\Common\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Common.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Tutorials\\DataValidation\\Common\\wwwroot\\background.png",
+      "SourceId": "Common",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tutorials\\DataValidation\\Common\\wwwroot\\",
+      "BasePath": "_content/Common",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "D:\\Tutorials\\DataValidation\\Common\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "Common",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tutorials\\DataValidation\\Common\\wwwroot\\",
+      "BasePath": "_content/Common",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ]
+}

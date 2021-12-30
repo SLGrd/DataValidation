@@ -1,0 +1,91 @@
+﻿@page "/RegisterForm"
+
+<!-- Edit form definition -->
+<EditForm Model="@amg" OnValidSubmit="ValidSubmit" OnInvalidSubmit="InvalidSubmit">
+    <DataAnnotationsValidator />
+
+    <div class="card BordaRelevo">
+        <!-- Card Header -->
+        <div class="card-header d-flex justify-content-center mt-2" style="background-color:lightgrey ; border:solid 1px; border-radius:3px;">
+	        <h4 class="m-2 ">Teste de CPF Validator</h4>
+        </div>
+
+        <!-- Card Body -->
+        <div class="card-body mt-1 p-3" style="background-color:lightgrey ; border: solid 1px; border-radius:3px;">	
+
+            <label style="font-size:12px; color:blue; margin-bottom:0; ">Name</label>
+            <InputText class="form-control InBox" type="text"  @bind-Value="amg.Nome"/>
+            <ValidationMessage style="font-size:11px; color:red"  For="@(() => amg.Nome)"/>
+
+            <label style="font-size:12px; color:blue; margin-bottom:0; margin-top:16px">CPF</label>
+            <InputText class="form-control InBox" type="text"  @bind-Value="amg.Cpf"/>
+            <ValidationMessage style="font-size:11px;color:red" For="@(() => amg.Cpf)" />
+
+            <label style="font-size:12px; color:blue; margin-bottom:0; margin-top:16px">Phone</label>
+            <InputText class="form-control InBox" type="text"  @bind-Value="amg.Phone"/>
+            <ValidationMessage style="font-size:11px;color:red" For="@(() => amg.Phone)" />
+
+        </div>
+
+        <!-- Card Footer -->
+        <div class="card-footer d-flex flex-row mt-4 mb-0 p-0" style="background-color:gainsboro; border:none;">                        
+
+            <InputText class="form-control Inbox ml-0" style="width:60%;" type="text" @bind-Value="@Msg"/>
+
+            <button class="form-control btn btn-outline-primary mx-4 " style="width:20%;" type="button" @onclick="ClearForm" >CLEAR</button>
+
+            <button class="form-control btn btn-outline-primary " style="width:20%" type="submit" >ADD NEW</button>   
+
+        </div>
+    </div>
+</EditForm>
+
+<style>
+    .BordaRelevo {
+        max-width: auto;
+        padding: 34px;
+        background-color: gainsboro;
+        box-shadow: 2px 10px 8px #101010;
+        border-radius: 9px;
+        border-color: black;
+        border-style: double;
+        margin: 5px 10px 20px 30px;
+    }
+
+    .InBox {
+        background-color: gainsboro;
+        border-radius: 5px;
+        border-color: gray;
+        border-style: solid;
+        border-top: none;
+        border-right: none;
+    }
+</style>
+
+@code{
+    public string Msg = "";
+    public AmigoModel amg = new();
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();               
+    }
+
+    public void InvalidSubmit()
+    {
+        Msg = "Errors Detected";
+    }
+
+    public void ValidSubmit()
+    {
+        //  Formata CPF com pontos e hifen xxx.xxx.xxx-xx
+        amg.Cpf = Convert.ToDouble( amg.Cpf.Replace(".", "").Replace("-", "")).ToString("### ### ###-##").Replace(" ", ".");            
+        Msg = "Status OK";
+    }
+
+    public void ClearForm()
+    {
+        amg= new();            
+        Msg = "";
+    }
+}
